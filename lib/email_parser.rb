@@ -13,7 +13,7 @@ class EmailParser
   end
   
   def parse
-    emails.split(/,| /).filter
+    emails.split(/,| /)
     #binding.pry
     
   end
