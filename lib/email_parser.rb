@@ -13,9 +13,9 @@ class EmailParser
   end
   
   def parse
-    email = emails.uniq!.split(/, | /)
+   emails = emails.split(/, | /)
     #binding.pry
-
+   emails.uniq!
   end
     
     
